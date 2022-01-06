@@ -17,9 +17,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.403
-    - name: Restore dependencies
-      run: dotnet restore
+    
     - name: Build
-      run: dotnet build C:\Users\ranjitha.kirubakaran\source\repos\WebApplication2\WebApplication2.sln
+      run: dotnet build C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\msbuild.exe
     - name: Test
-      run: dotnet test C:\Users\ranjitha.kirubakaran\source\repos\WebApplication2\WebApplication2.sln
+      run: dotnet test C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\msbuild.exe
