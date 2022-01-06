@@ -20,6 +20,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build "WebApplication2\WebApplication2.csproj"
+      run: dotnet build WebApplication2\WebApplication2.csproj
     - name: Test
-      run: dotnet test "WebApplication2\WebApplication2.csproj"
+      run: dotnet test WebApplication2\WebApplication2.csproj
