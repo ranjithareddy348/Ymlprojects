@@ -19,6 +19,6 @@ jobs:
         dotnet-version: 5.0.403
     
     - name: Build
-      run: dotnet build C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
+      run: dotnet build "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
     - name: Test
-      run: dotnet test C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
+      run: dotnet test "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin"
