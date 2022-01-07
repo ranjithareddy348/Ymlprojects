@@ -1,0 +1,25 @@
+# YAMl code
+Language:
+  - Language_name: "Python"
+    Published: 1991
+    Designed_by: "Guido Van Rossum" 
+  - Language_name: "java"
+    Published: 1995
+    Designed_by: "James Gosling"
+  Course: 
+    course_name: "DJango back and developer"
+    version: 1.5
+    price: 199
+    is_public: true
+    release date: 2021-04-05 
+    pre-enroll: null
+  short_desc: > 
+    here is a short 
+    description for DJango course
+  long_desc: |
+    now we can store 
+    all indentation
+    and releted things
+  martin: {name: Martin, job: Developer, skill: Elite}
+  fruits: ['Apple', 'Orange', 'Strawberry', 'Mango'] 
+  process_payment: *price
