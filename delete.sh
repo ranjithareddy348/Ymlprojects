@@ -1,6 +1,6 @@
 org=<your org>
 
-repo=<your repo>
+repo=<Ymlprojects>
 
 workflow_ids=($(gh api repos/$org/$repo/actions/workflows | jq '.workflows[] | select(.["state"] | contains("disabled_manually")) | .id'))
 
