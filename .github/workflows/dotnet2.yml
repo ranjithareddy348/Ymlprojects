@@ -13,10 +13,10 @@ on:
 
 jobs:
   del_runs:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Delete workflow runs
-        uses: ranjithareddy348/delete-workflow-runs@v2
+        uses: Ymlprojects/delete-workflow-runs@v2
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
